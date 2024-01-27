@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/java,macos,eclipse
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,macos,eclipse
 
+### IntelliJ ###
+**/.idea
+bankease.iml
+
 ### Eclipse ###
 .metadata
 bin/
@@ -83,6 +87,7 @@ local.properties
 
 # Package Files #
 *.jar
+!mysql-connector-j-8.3.0.jar
 *.war
 *.nar
 *.ear
