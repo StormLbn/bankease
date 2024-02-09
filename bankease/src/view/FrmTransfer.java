@@ -199,7 +199,7 @@ public class FrmTransfer extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				String amount = txtMontant.getText();
 				String errorMsg = TransferController.transferAccount(sourceAccount, selectedAccount, amount);
-				if (errorMsg == "") {
+				if (errorMsg.isEmpty()) {
 					String message = TransferController.applyChange(sourceAccount, "débit", amount) + "\n";
 					message += TransferController.applyChange(selectedAccount, "crédit", amount);
 					setVisible(false);

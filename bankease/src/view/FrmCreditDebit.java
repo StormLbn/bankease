@@ -142,7 +142,7 @@ public class FrmCreditDebit extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				String amount = txtMontant.getText();
 				String errorMsg = CreditDebitController.creditDebitAccount(action, account, amount);
-				if (errorMsg == "") {
+				if (errorMsg.isEmpty()) {
 					String message = CreditDebitController.applyChange(account, action, amount);
 					setVisible(false);
 					new FrmAccountList(account.getClientId(), message);

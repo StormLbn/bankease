@@ -36,7 +36,7 @@ public class CreditDebitController {
 		
 		errorMsg = validateAction(account, amount);
 		
-		if (errorMsg == "") {
+		if (errorMsg.isEmpty()) {
 			account.setBalance(account.getBalance() + amount);
 		}
 

@@ -42,7 +42,7 @@ public class TransferController {
 		errorMsg += validateAction(source, debitAmount);
 		errorMsg += validateAction(destination, creditAmount);
 		
-		if (errorMsg == "") {
+		if (errorMsg.isEmpty()) {
 			source.setBalance(source.getBalance() + debitAmount);
 			destination.setBalance(destination.getBalance() + creditAmount);
 		}
