@@ -41,6 +41,14 @@ cd bankease
 
 ### Build and run
 
+#### With an IDE :
+- Open the `bankease` project folder (containing the source code) with your IDE.
+- Set the JDK of the project, ideally Java 17 to avoid eventual conflicts - refer to your IDE's documentation if you don't know how to set JDK
+- Add the mysql connector to the project's modules - again, refer to your IDE's documentation
+- Run the `bankease.Main` class.
+
+#### With a terminal :
+
 Compile the source code as a .jar file and run the application.
 In a terminal open in the `bankease/bankease` folder :
 
@@ -52,9 +60,9 @@ jar cfm Bankease.jar Manifest.txt -C . .
 java -jar Bankease.jar
 ```
 
-<u>Note :</u> prefer using Java 17 to avoid eventual conflicts ; if you have more than one version of Java installed on your computer, you can choose which version to use by defining the full path of the right JDK tool.
+<u>Note :</u> prefer using Java 17 to avoid eventual conflicts ; if you have more than one version of Java installed on your computer, you can choose which version to use by defining the full path of the right JDK tool
+(example for compilation) :
 
-Example for compilation :
 ```bash
 "C:/Program Files/Java/jdk-17.0.10/bin/javac" -encoding UTF-8 -d out src/**/*.java
 ```
