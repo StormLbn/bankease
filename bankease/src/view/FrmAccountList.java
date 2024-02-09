@@ -65,7 +65,7 @@ public class FrmAccountList extends JFrame {
 
 		JLabel txtTitle = new JLabel("Comptes de " + AccountListController.getAccountOwner(clientId));
 
-		txtTitle.setBackground(new Color(200, 173, 167));
+		txtTitle.setBackground(new Color(122, 201, 224));
 		txtTitle.setOpaque(true);
 		txtTitle.setHorizontalAlignment(SwingConstants.CENTER);
 		txtTitle.setFont(new Font("Tahoma", Font.BOLD, 20));
@@ -234,7 +234,7 @@ public class FrmAccountList extends JFrame {
 		});
 		
 		btnRetour = new JButton("Retour");
-		btnRetour.setBackground(new Color(200, 173, 167));
+		btnRetour.setBackground(new Color(122, 201, 224));
 		btnRetour.repaint();
 		btnRetour.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		btnRetour.setBounds(443, 533, 100, 45);

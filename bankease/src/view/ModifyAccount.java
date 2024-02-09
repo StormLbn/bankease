@@ -28,7 +28,7 @@ public class ModifyAccount extends JFrame {
 
 	public ModifyAccount(Account account) {
 		getContentPane().setFont(new Font("Tahoma", Font.PLAIN, 14));
-		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(660, 700);
 		setLocationRelativeTo(null);
 		getContentPane().setLayout(null);
@@ -36,7 +36,7 @@ public class ModifyAccount extends JFrame {
 		setTitle("Bankease - Modifier un compte");
 
 		JPanel panel = new JPanel();
-		panel.setBackground(new Color(200, 173, 167));
+		panel.setBackground(new Color(122, 201, 224));
 		panel.setBounds(0, 0, 660, 77);
 		getContentPane().add(panel);
 		panel.setLayout(null);
@@ -90,7 +90,7 @@ public class ModifyAccount extends JFrame {
 		interestRateOrTransferFeeText.setBounds(204, 27, 184, 25);
 		JButton btnValidate = new JButton("Valider");
 		btnValidate.setBounds(194, 21, 107, 29);
-		btnValidate.setBackground(new Color(200, 173, 167));
+		btnValidate.setBackground(new Color(122, 201, 224));
 		btnValidate.setForeground(new Color(0, 0, 0));
 
 		panel_3_1.add(interestRateOrTransferFeeText);
@@ -193,7 +193,7 @@ public class ModifyAccount extends JFrame {
 
 		JButton btnReturn = new JButton("Retour");
 		btnReturn.setBounds(349, 21, 115, 29);
-		btnReturn.setBackground(new Color(200, 173, 167));
+		btnReturn.setBackground(new Color(122, 201, 224));
 		btnReturn.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		panelButtons.add(btnReturn);
 

@@ -23,7 +23,7 @@ public class ClientsList extends JFrame {
 	private static final long serialVersionUID = 1L;
 
 	public ClientsList() {
-		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(660, 700);
 		setLocationRelativeTo(null);
 		getContentPane().setLayout(null);
@@ -48,7 +48,7 @@ public class ClientsList extends JFrame {
 
 		JButton btnModifyClient = new JButton("Modifier Client");
 		btnModifyClient.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		btnModifyClient.setBackground(new Color(200, 173, 167));
+		btnModifyClient.setBackground(new Color(122, 201, 224));
 		btnModifyClient.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Client selectedClient = list.getSelectedValue();
@@ -65,7 +65,7 @@ public class ClientsList extends JFrame {
 
 		JButton btnDeleteClient = new JButton("Supprimer Client");
 		btnDeleteClient.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		btnDeleteClient.setBackground(new Color(200, 173, 167));
+		btnDeleteClient.setBackground(new Color(122, 201, 224));
 		btnDeleteClient.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Client selectedClient = list.getSelectedValue();
@@ -87,7 +87,7 @@ public class ClientsList extends JFrame {
 		JButton btnAccounts = new JButton("Voir comptes");
 		panel_1.add(btnAccounts);
 		btnAccounts.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		btnAccounts.setBackground(new Color(200, 173, 167));
+		btnAccounts.setBackground(new Color(122, 201, 224));
 		btnAccounts.setEnabled(false);
 
 		btnAccounts.addActionListener(new ActionListener() {
@@ -110,7 +110,7 @@ public class ClientsList extends JFrame {
 		JButton btnAddClient = new JButton("Ajouter Client");
 		panel_2.add(btnAddClient);
 		btnAddClient.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		btnAddClient.setBackground(new Color(200, 173, 167));
+		btnAddClient.setBackground(new Color(122, 201, 224));
 
 		btnAddClient.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -160,7 +160,7 @@ public class ClientsList extends JFrame {
 		panel_3.add(clientPhoneLabel);
 
 		JPanel panel = new JPanel();
-		panel.setBackground(new Color(200, 173, 167));
+		panel.setBackground(new Color(122, 201, 224));
 		panel.setBounds(0, 0, 660, 77);
 		getContentPane().add(panel);
 		panel.setLayout(null);

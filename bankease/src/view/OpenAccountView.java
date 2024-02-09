@@ -61,7 +61,7 @@ public class OpenAccountView extends JFrame implements ActionListener {
 		getContentPane().add(horizontalBox_1);
 
 		JLabel txtTitle = new JLabel("Ouverture d'un compte de la page");
-		txtTitle.setBackground(new Color(200, 173, 167));
+		txtTitle.setBackground(new Color(122, 201, 224));
 		txtTitle.setOpaque(true);
 		txtTitle.setHorizontalAlignment(SwingConstants.CENTER);
 		txtTitle.setFont(new Font("Tahoma", Font.BOLD, 20));
@@ -86,7 +86,7 @@ public class OpenAccountView extends JFrame implements ActionListener {
 		Compte_courant.addActionListener(this);
 		
 		JButton btnRetour = new JButton("Retour");
-		btnRetour.setBackground(new Color(200, 173, 167));
+		btnRetour.setBackground(new Color(122, 201, 224));
 		btnRetour.repaint();
 		btnRetour.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		btnRetour.setBounds(370, 550, 100, 45);
@@ -150,7 +150,7 @@ public class OpenAccountView extends JFrame implements ActionListener {
 			getContentPane().add(balance);
 			
 			JLabel txtTitle = new JLabel("Ouverture d'un compte");
-			txtTitle.setBackground(new Color(200, 173, 167));
+			txtTitle.setBackground(new Color(122, 201, 224));
 			txtTitle.setOpaque(true);
 			txtTitle.setHorizontalAlignment(SwingConstants.CENTER);
 			txtTitle.setFont(new Font("Tahoma", Font.BOLD, 20));
@@ -273,7 +273,7 @@ public class OpenAccountView extends JFrame implements ActionListener {
 			getContentPane().add(horizontalBox_1);
 
 			JButton btnRetour = new JButton("Retour");
-			btnRetour.setBackground(new Color(200, 173, 167));
+			btnRetour.setBackground(new Color(122, 201, 224));
 			btnRetour.repaint();
 			btnRetour.setFont(new Font("Tahoma", Font.PLAIN, 16));
 			btnRetour.setBounds(370, 550, 100, 45);
@@ -366,7 +366,7 @@ public class OpenAccountView extends JFrame implements ActionListener {
 			getContentPane().add(balance);
 
 			JLabel txtTitle = new JLabel("Ouverture d'un compte");
-			txtTitle.setBackground(new Color(200, 173, 167));
+			txtTitle.setBackground(new Color(122, 201, 224));
 			txtTitle.setOpaque(true);
 			txtTitle.setHorizontalAlignment(SwingConstants.CENTER);
 			txtTitle.setFont(new Font("Tahoma", Font.BOLD, 20));
@@ -463,7 +463,7 @@ public class OpenAccountView extends JFrame implements ActionListener {
 			getContentPane().add(horizontalBox_1);
 
 			JButton btnRetour = new JButton("Retour");
-			btnRetour.setBackground(new Color(200, 173, 167));
+			btnRetour.setBackground(new Color(122, 201, 224));
 			btnRetour.repaint();
 			btnRetour.setFont(new Font("Tahoma", Font.PLAIN, 16));
 			btnRetour.setBounds(370, 550, 100, 45);

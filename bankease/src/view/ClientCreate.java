@@ -25,14 +25,14 @@ public class ClientCreate extends JFrame {
 	private static final long serialVersionUID = 1L;
 
 	public ClientCreate() {
-		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(660, 700);
 		setLocationRelativeTo(null);
 		getContentPane().setLayout(null);
 		setTitle("Bankease - Ajouter un nouveau client");
 
 		JPanel panel = new JPanel();
-		panel.setBackground(new Color(200, 173, 167));
+		panel.setBackground(new Color(122, 201, 224));
 		panel.setBounds(0, 0, 660, 77);
 		getContentPane().add(panel);
 		panel.setLayout(null);
@@ -48,12 +48,12 @@ public class ClientCreate extends JFrame {
 		getContentPane().add(btnReturn);
 
 		JButton btnValidate = new JButton("Valider");
-		btnValidate.setBackground(new Color(200, 173, 167));
+		btnValidate.setBackground(new Color(122, 201, 224));
 		btnReturn.add(btnValidate);
 		btnValidate.setFont(new Font("Tahoma", Font.PLAIN, 16));
 
 		JButton btnNewButton = new JButton("Retour");
-		btnNewButton.setBackground(new Color(200, 173, 167));
+		btnNewButton.setBackground(new Color(122, 201, 224));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setVisible(false);

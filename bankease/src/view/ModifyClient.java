@@ -26,7 +26,7 @@ public class ModifyClient extends JFrame {
 	private static final long serialVersionUID = 1L;
 
 	public ModifyClient(Client client) {
-		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(660, 700);
 		setLocationRelativeTo(null);
 		getContentPane().setLayout(null);
@@ -38,12 +38,12 @@ public class ModifyClient extends JFrame {
 		getContentPane().add(panelButtons);
 
 		JButton btnValidate = new JButton("Valider");
-		btnValidate.setBackground(new Color(200, 173, 167));
+		btnValidate.setBackground(new Color(122, 201, 224));
 		panelButtons.add(btnValidate);
 		btnValidate.setFont(new Font("Tahoma", Font.PLAIN, 16));
 
 		JButton btnReturn = new JButton("Retour");
-		btnReturn.setBackground(new Color(200, 173, 167));
+		btnReturn.setBackground(new Color(122, 201, 224));
 		btnReturn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setVisible(false);
@@ -176,7 +176,7 @@ public class ModifyClient extends JFrame {
 				errorEmpty.setFont(new Font("Tahoma", Font.PLAIN, 16));
 				
 				JPanel panel_2 = new JPanel();
-				panel_2.setBackground(new Color(200, 173, 167));
+				panel_2.setBackground(new Color(122, 201, 224));
 				panel_2.setBounds(0, 0, 646, 76);
 				getContentPane().add(panel_2);
 				errorEmpty.setVisible(false);

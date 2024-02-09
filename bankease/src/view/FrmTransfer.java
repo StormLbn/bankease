@@ -70,7 +70,7 @@ public class FrmTransfer extends JFrame {
 
 		// Affichage du libellé du compte en titre :
 		JLabel txtTitle = new JLabel("Transférer depuis le compte " + sourceAccount.getAccountType() + " n°" + sourceAccount.getAccountId());
-		txtTitle.setBackground(new Color(200, 173, 167));
+		txtTitle.setBackground(new Color(122, 201, 224));
 		txtTitle.setOpaque(true);
 		txtTitle.setHorizontalAlignment(SwingConstants.CENTER);
 		txtTitle.setFont(new Font("Tahoma", Font.BOLD, 20));

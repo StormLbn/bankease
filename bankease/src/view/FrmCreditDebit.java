@@ -56,7 +56,7 @@ public class FrmCreditDebit extends JFrame {
 
 		// Affichage du libellé du compte en titre :
 		JLabel txtTitle = new JLabel(action.substring(0,1).toUpperCase() + action.substring(1) + "er le compte n°" + account.getAccountId());
-		txtTitle.setBackground(new Color(200, 173, 167));
+		txtTitle.setBackground(new Color(122, 201, 224));
 		txtTitle.setOpaque(true);
 		txtTitle.setHorizontalAlignment(SwingConstants.CENTER);
 		txtTitle.setFont(new Font("Tahoma", Font.BOLD, 20));
